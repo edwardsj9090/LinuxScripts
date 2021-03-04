@@ -48,7 +48,7 @@ echo ""
 echo "Creating firefly database and user..."
 echo ""
 echo ""
-sudo mysql -u root -p < /home/scripty/mysql_setup.txt
+sudo mysql -u root -p < /home/userdirectory/mysql_setup.txt
 echo ""
 echo ""
 echo "Replacing .env file in /var/www/html directory (changes the db_host parameter to localhost)..."

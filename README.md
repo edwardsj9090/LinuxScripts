@@ -13,5 +13,4 @@ OR
 
 2. Use the following terminal command to make the file executable:
 
-chmod +x /path/to/your/filename.extension
-
+chmod +x /path/to/your/filename.sh

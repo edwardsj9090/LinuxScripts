@@ -54,7 +54,7 @@ echo ""
 echo "Replacing .env file in /var/www/html directory (changes the db_host parameter to localhost)..."
 echo ""
 echo ""
-sudo cp /home/scripty/.env /var/www/html/firefly-iii/
+sudo cp /home/userdirectory/.env /var/www/html/firefly-iii/
 echo ""
 echo ""
 cd /var/www/html/firefly-iii

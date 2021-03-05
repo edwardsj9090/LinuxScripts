@@ -49,13 +49,13 @@ echo "Creating firefly database and user..."
 echo ""
 echo ""
 echo "Enter your MySQL root password.  If you don't have one, just hit Enter."
-sudo mysql -u root -p < $HOME/mysql_setup.txt
+sudo mysql -u root -p < $HOME/LinuxScripts/mysql_setup.txt
 echo ""
 echo ""
 echo "Replacing .env file in /var/www/html directory (changes the db_host parameter to localhost)..."
 echo ""
 echo ""
-sudo cp $HOME/.env /var/www/html/firefly-iii/
+sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
 echo ""
 echo ""
 cd /var/www/html/firefly-iii

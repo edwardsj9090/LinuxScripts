@@ -1,7 +1,13 @@
 # LinuxScripts
 Scripts for Linux upgrades and various Linux tasks.
 
-These scripts assume you are running a flavor of Linux that includes apptitude.
+For the firely-iii install be sure to copy the mysql_setup.txt and .env files to your user's home directory (/home/username/)
+
+These scripts assume you are running a flavor of Linux that includes apt package manager.
+
+
+
+
 
 To run the scripts you have to make them executable once you download them because Linux by default does not allow .sh files to execute.
 

@@ -48,6 +48,7 @@ echo ""
 echo "Creating firefly database and user..."
 echo ""
 echo ""
+echo "Enter your MySQL root password.  If you don't have one, just hit Enter."
 sudo mysql -u root -p < $HOME/mysql_setup.txt
 echo ""
 echo ""

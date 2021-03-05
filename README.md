@@ -1,7 +1,7 @@
 # LinuxScripts
 Scripts for Linux upgrades and various Linux tasks.
 
-For the firely-iii install be sure to copy the mysql_setup.txt and .env files to your user's home directory (/home/username/)
+For the firely-iii install be sure to copy install file, mysql_setup.txt, and .env files to your user's home directory (/home/username/). DO NOT run the .sh as sudo.  The $HOME system variable will redirect to the /root/ home directory, and the lines in the script that reference the $HOME variable will not run properly.
 
 These scripts assume you are running a flavor of Linux that includes apt package manager.
 

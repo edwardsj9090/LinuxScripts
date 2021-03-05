@@ -18,3 +18,5 @@ OR
 2. Use the following terminal command to make the file executable:
 
 chmod +x /path/to/your/filename.sh
+
+Thank you JC5 for this awesome firefly-iii financial management app :)

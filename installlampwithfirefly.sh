@@ -52,10 +52,16 @@ echo "Enter your MySQL root password.  If you don't have one, just hit Enter."
 sudo mysql -u root -p < $HOME/LinuxScripts/mysql_setup.txt
 echo ""
 echo ""
-echo "Replacing .env file in /var/www/html directory (changes the db_host parameter to localhost)..."
+echo "Replacing .env file in /var/www/html directory..."
 echo ""
 echo ""
 sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
+echo ""
+echo ""
+echo "Copying .htaccess file to /var/www/html/firefly-iii/ directory..."
+echo ""
+echo ""
+sudo cp $HOME/LinuxScripts/.htaccess /var/www/html/firefly-iii/
 echo ""
 echo ""
 cd /var/www/html/firefly-iii

@@ -1,7 +1,0 @@
-# Hide directory listing
-Options All -Indexes
-
-#Prevent access to .env and other files
-<Files .*>
-  Deny from all
-</Files>

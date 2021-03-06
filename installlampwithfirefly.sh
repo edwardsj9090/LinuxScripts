@@ -62,4 +62,4 @@ sudo service apache2 restart
 echo
 echo "All done..."
 echo
-echo You should now be able to visit http://<ipaddress>/firefly-iii/public
+echo "You should now be able to visit http://<ipaddress>/firefly-iii/public"

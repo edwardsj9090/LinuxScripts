@@ -58,12 +58,6 @@ echo ""
 sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
 echo ""
 echo ""
-echo "Copying .htaccess file to /var/www/html/firefly-iii/ directory..."
-echo ""
-echo ""
-sudo cp $HOME/LinuxScripts/.htaccess /var/www/html/firefly-iii/
-echo ""
-echo ""
 cd /var/www/html/firefly-iii
 echo ""
 echo ""
@@ -73,12 +67,6 @@ echo ""
 sudo php artisan migrate:refresh --seed
 sudo php artisan firefly-iii:upgrade-database
 sudo php artisan passport:install
-echo ""
-echo ""
-echo "Enabling apache module 'rewrite' and restarting apache service..."
-echo ""
-echo ""
-sudo a2enmod rewrite
 echo ""
 echo ""
 sudo service apache2 restart

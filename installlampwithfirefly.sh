@@ -42,7 +42,7 @@ echo "Replacing .env file in /var/www/html directory..."
 echo
 sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
 echo
-echo Copy apache2.conf file to the /etc/apache2/ directory..."
+echo "Copy apache2.conf file to the /etc/apache2/ directory..."
 echo
 cp $HOME/LinuxScripts/apache2.conf /etc/apache2/
 echo

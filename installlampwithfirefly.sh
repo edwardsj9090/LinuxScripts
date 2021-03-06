@@ -41,10 +41,6 @@ echo
 echo "Replacing .env file in /var/www/html directory..."
 echo
 sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
-#echo
-#echo "Copying .htaccess file to /var/www/html/firefly-iii/ directory..."
-#echo
-#sudo cp $HOME/LinuxScripts/.htaccess /var/www/html/firefly-iii/
 echo
 cd /var/www/html/firefly-iii
 echo

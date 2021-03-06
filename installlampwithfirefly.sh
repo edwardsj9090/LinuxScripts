@@ -42,6 +42,14 @@ echo "Replacing .env file in /var/www/html directory..."
 echo
 sudo cp $HOME/LinuxScripts/.env /var/www/html/firefly-iii/
 echo
+echo Copy apache2.conf file to the /etc/apache2/ directory..."
+echo
+cp $HOME/LinuxScripts/apache2.conf /etc/apache2/
+echo
+echo "Enable apache rewrite module"
+echo
+sudo a2enmod rewrite
+echo
 cd /var/www/html/firefly-iii
 echo
 echo "Artisan setup..."
@@ -54,25 +62,4 @@ sudo service apache2 restart
 echo
 echo "All done..."
 echo
-echo "Post Install Steps:"
-echo
-echo "Make sure that the following lines are in the /etc/apache2/apache2.conf file"
-echo "This will protect the root of the firefly-iii folder from prying eyes :)"
-echo
-echo "<Directory /var/www/>"
-echo     "Options Indexes FollowSymLinks"
-echo     "AllowOverride All"
-echo     "Require all granted"
-echo "</Directory>"
-echo
-echo
-echo "<Directory /var/www/html/firefly-iii>"
-echo     "Require all denied"
-echo "</Directory>"
-echo
-echo
-echo "<Directory /var/www/html/firefly-iii/public>"
-echo     "Require all granted"
-echo "</Directory>"
-echo
-echo
+echo You should now be able to visit http://<ipaddress>/firefly-iii/public

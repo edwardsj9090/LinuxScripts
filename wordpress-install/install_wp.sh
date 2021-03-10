@@ -29,11 +29,11 @@ echo "Creating WP database and DB User..."
 sleep 3
 echo
 echo "If you don't have a root password for your MySQL instance, just press Enter:"
-sudo mysql -u root -p < $HOME/wordpress-install/wp_mysql_setup.sql
+sudo mysql -u root -p < $HOME/LinuxScripts/wordpress-install/wp_mysql_setup.sql
 echo
 echo "Replacing the wp-config.php file to match the default MySQL setup..."
 sleep 3
-sudo cp -r $HOME/wordpress-install/wp-config.php /var/www/html/wordpress/
+sudo cp -r $HOME/LinuxScripts/wordpress-install/wp-config.php /var/www/html/wordpress/
 sudo rm -rf /wordpress/wp-config-sample.php
 echo
 echo "Now visit http://localhost/wordpress/install.php"

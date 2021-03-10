@@ -4,4 +4,4 @@ This script will setup all of the prerequsite LAMP stack components and create a
 
 1. `git clone https://github.com/edwardsj9090/LinuxScripts`
 2. `cd LinuxScripts/wordpress-install`
-3. `sh wp_install.sh`
+3. `sh install_wp.sh`

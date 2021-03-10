@@ -16,7 +16,7 @@ echo
 echo "Now we download and install WordPress..."
 sleep 3
 cd /var/www/html
-sudo wget https://wordpress.org/latest.tar.gz
+sudo wget https://wordpress.org/latest.tar.gz --no-check-certificate
 echo
 echo "Unzipping wordpress into a folder on the web root"
 sleep 3

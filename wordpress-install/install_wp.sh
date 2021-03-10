@@ -36,4 +36,4 @@ sleep 3
 sudo cp -r $HOME/LinuxScripts/wordpress-install/wp-config.php /var/www/html/wordpress/
 sudo rm -rf /wordpress/wp-config-sample.php
 echo
-echo "Now visit http://localhost/wordpress/wp-admin/install.php"
+echo "Now visit http://serverIPaddress/wordpress/wp-admin/install.php"

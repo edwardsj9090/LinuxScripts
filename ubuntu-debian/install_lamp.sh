@@ -3,7 +3,7 @@
 echo "I would not recommend immediately pointing this to the internet without securing it first."
 echo "There is a basic firewall installed and configured, but no SSL certs or anything have been generated."
 echo "UFW is a very effective and easy front end built on top of the ever so popular iptables firewall."
-echo Continue
+read Continue
 
 echo
 echo "This will install the necessary components to get a very basic Linux web server up and running."
